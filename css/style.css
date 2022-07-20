@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* global syle*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 74%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border-top {
+    border-top: 1px solid #e2e2e2;
+}
+
+.active a {
+    color: white !important;
+}
+
+/* global syle*/
+
+
+/* .first-navbar section.......................................................................... */
+
+.first-nav {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: black;
+}
+
+.first-nav ul {
+    width: 50%;
+    padding-right: 1.5%;
+
+}
+
+.first-nav ul li a {
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(169, 169, 169);
+    transition: .7s;
+}
+
+.first-nav ul:first-child a {
+    color: white;
+}
+
+.first-nav ul li a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.first-nav ul:first-child a{
+    color: white;
+}
+
+.first-nav h1 a{
+
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 8%;
+    color: white;
+}
+
+
+.first-nav ul i {
+    font-size: 1.8rem;
+    color: rgb(191, 176, 176);
+}
+
+.angels a i{
+    color: #00000034;
+    border: 1px solid #00000034;
+    border-radius: 50%;
+    padding: 1.4% 2%;
+    margin-left: 2%;
+    transition: .7s;
+}
+
+.angels {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+
+.angels a i:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    padding: .7% 7%;
+    color: blue;
+    font-size: medium;
+    border: none;
+    border-radius: 2%;
+} 
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+/* Home section....................................................................................*/
+
+.home-section {
+    background-image: url('../images/bc-home.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 8%;
+}
+.home-section .d-flex {
+    align-items: flex-end;
+    height: 100%;
+    padding: 3% 0;
+}
+
+.home-section .container {
+    height: 100%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.443);
+    height: 100%;
+}
+
+.home-section .items-d-flex{
+    color: #8d8d8d;
+    display: flex;
+    align-items: center;
+    width:30%;
+}
+
+.home-section .items-d-flex h3 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.home-section .items-d-flex h1 {
+    width: 55px;
+    height: 48px;
+    border: 4px #8d8d8d solid;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.home-section :nth-child(2) h1 {
+    width: 55px;
+    height: 48px;
+    border: 4px blue solid;
+    text-align: center;
+    border-radius: 50%;
+    border-left: solid #8d8d8d 4px;
+}
+
+
+/* gadgets-section....................................................................... */
+
+.left-side1 {
+    width: 65%;
+}
+
+
+.sec-nav {
+    width: 100%;
+    padding: 3% 0%;
+    border-bottom: 1px solid #0000001d;
+    margin-bottom: 5%;
+}
+
+.sec-nav ul {
+    width: 75%;
+}
+
+.sec-nav ul li a {
+    color: #8d8d8d;
+}
+
+.sec-nav ul li a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.sec-nav h1 a {
+    font-size: 20px;
+    color: black;
+}
+
+.l-content {
+    width: 48%;
+    background-color: white;
+    box-shadow: #0000002d 0px 0px 8px 2px;
+}
+
+.l-content img {
+    width: 100%;
+}
+
+.left-side1 .l-content h1 {
+    font-size: 17px;
+    padding: 7%;
+    width: 90%;
+}
+
+.left-side1 .l-content h4 {
+    font-size: 15px;
+    padding: 0% 0px 0px 7%;
+    width: 90%;
+    color: #8d8d8d;
+}
+
+.left-side1 .l-content p {
+    font-size: 13px;
+    padding: 5% 0 5% 7%;
+    width: 90%;
+    color: #8d8d8d;
+}
+
+
+.r-content {
+    width: 48%;
+}
+
+.r-content img {
+    width: 37%;
+}
+
+
+.left-side1 .r-content h2 {
+    font-size: 13px;
+    padding: 7%;
+    width: 100%;
+}
+
+.left-side1 .r-content p {
+    font-size: 13px;
+    padding: 0% 0px 9% 7%;
+    width: 90%;
+    color: #8d8d8d;
+    width: 100%;
+}
+
+.left-side1 .r-content .item {
+    margin-bottom: 1.5%;
+    background-color: white;
+    box-shadow: #0000001d 0px 0px 8px 2px;
+}
+
+.right-side {
+    width: 30%;
+    border-left: 1px solid #0000001d;
+}
+
+.right-side h1 {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    padding-left: 6%;
+}
+
+.right-side p {
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 5%;
+    padding-top: 7.5%;
+    padding-left: 6%;
+    color: #acacac;
+}
+
+.right-side .item {
+    width: 98%;
+    background: white;
+    box-shadow: #0000001d 0px 0px 8px 2px;
+    margin-bottom: 1%;
+    margin-left: 6%;
+}
+
+.right-side .item img {
+    width: 27%;
+}
+
+.right-side .item h3 {
+    padding: 6%;
+    font-size: 15px;
+
+}
+
+.right-side .items {
+    padding: 8% 0;
+}
+
+.right-side .icons a {
+    padding: 4% 4%;
+    font-size: 15px;
+    color: darkgrey;
+    border: solid 1px #8080801c;
+    border-radius: 48%;
+    margin: 10% 2.5%;
+}
+
+.right-side .icons i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.right-side .pic {
+    width: 100%;
+    padding: 6%;
+}
+
+.right-side .pic img {
+    width: 100%;
+}
+
+.b-content {
+    width: 100%;
+}
+
+
+.b-content .item img {
+    width: 30%;
+}
+
+.b-content h2 {
+    font-size: 13px;
+    padding: 7%;
+    width: 100%;
+}
+
+.b-content p {
+    font-size: 13px;
+    padding: 0% 0px 9% 7%;
+    width: 90%;
+    color: #8d8d8d;
+    width: 100%;
+}
+
+.b-content .item {
+    margin-bottom: 1.5%;
+    background-color: white;
+    box-shadow: #0000001d 0px 0px 8px 2px;
+}
+
+.b-content .items {
+    width: 48%;
+    padding: 1% 0%;
+}
