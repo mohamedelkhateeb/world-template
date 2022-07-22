@@ -1,0 +1,119 @@
+@media (max-width: 991.98px) { 
+    
+    .life-style-section .item {
+        width: 100%;
+    }
+    .life-style-section .d-flex {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .life-style-section .item button{
+        left: 41%;
+        top: 22%;
+    }
+    
+    .life-style-section .item p {
+        left: 36%;
+    }
+
+    .video-section .d-flex {
+        flex-wrap: wrap;
+    }
+    .video-section .item {
+        flex-wrap: nowrap;
+    }
+    .video-section .sec-left-side {
+        width: 100%;
+    }
+    .video-section .sec-right-side {
+        width: 100%;
+    }
+
+    .video-section .sec-right-side a i {
+        top: 36%;
+        left: 47%;
+    }
+
+}
+
+
+@media (max-width: 767.98px) { 
+    
+    .first-nav .d-flex {
+        flex-wrap: wrap;
+    }
+    .first-nav h1 {
+        width: 90%;
+    text-align: center;
+    padding: 5% 0;
+    }
+
+    .first-nav ul {
+        width: 100%
+        ;
+    }
+
+    .home-section .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .home-section .none{
+        display: none;
+    }
+
+    .home-section .white-color {
+        width: 100%;
+    }
+    .home-section .white-color h1 {
+        width: 10%;
+    }
+
+
+    .gadgets-section .d-flex {
+        flex-wrap: wrap;
+    }
+
+    .gadgets-section .left-side1 {
+        width: 100%;
+    }
+    .gadgets-section .right-side1 {
+        width: 100%;
+    }
+
+    .gadgets-section .l-content {
+        width: 100%;
+        margin: 2% 0;
+    }
+
+    .gadgets-section .r-content {
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    .sec-nav ul {
+        width: 100%;
+    }
+
+    .b-content .items{
+        width: 100%;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .right-side .item h3 {
+        width: 73%;
+    }
+
+    footer .d-flex {
+        flex-wrap: wrap;
+    }
+
+    footer .item {
+        width: 100%;
+        text-align: center;
+    }
+}
