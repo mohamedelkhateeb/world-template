@@ -35,6 +35,11 @@ a {
     color: white !important;
 }
 
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+
 /* global syle*/
 
 
@@ -98,9 +103,9 @@ a {
 }
 
 .angels {
-    margin-top: 10%;
-    margin-bottom: 5%;
-    margin-left: 2%;
+    margin-top: 6%;
+    margin-left: 1.5%;
+    margin-bottom: 1%;
 }
 
 .angels a i:hover {
@@ -122,6 +127,11 @@ a {
 .btn:hover {
     background-color: blue;
     color: white;
+}
+
+p:hover {
+    color: blue;
+    cursor: pointer;
 }
 /* Home section....................................................................................*/
 
@@ -212,6 +222,7 @@ a {
     width: 48%;
     background-color: white;
     box-shadow: #0000002d 0px 0px 8px 2px;
+    position: relative;
 }
 
 .l-content img {
@@ -271,6 +282,7 @@ a {
 .right-side {
     width: 30%;
     border-left: 1px solid #0000001d;
+    height: 100%;
 }
 
 .right-side h1 {
@@ -366,3 +378,222 @@ a {
     width: 48%;
     padding: 1% 0%;
 }
+
+.life-style-section {
+    margin: 4% 0%;
+}
+
+.life-style-section .item {
+    width: 30%;
+    position: relative;
+}
+
+.life-style-section .item img {
+    width: 100%;
+    height: 100%;
+}
+
+.life-style-section .item button {
+    left: 36%;
+    top: 10%;
+}
+
+.life-style-section .item h2 {
+    position: absolute;
+    font-size: 19px;
+    bottom: 33%;
+    color: white;
+    text-align: center;
+}
+
+.life-style-section .item p {
+    position: absolute;
+    top: 78%;
+    color: gray;
+    text-align: center;
+    left: 16%;
+}
+
+.video-section .sec-left-side {
+    width: 65%;
+}
+
+.video-section .sec-left-side h1 {
+    margin: 5% 0;
+    border-bottom: 1px #80808042 solid;
+    padding-bottom: 3%;
+}
+
+.video-section .sec-right-side h1 {
+    margin: 10% 0;
+    border-bottom: 1px #80808042 solid;
+    padding-bottom: 5.7%;
+}
+
+.video-section .sec-left-side .item{
+    background-color: white;
+    box-shadow: #0000002d 0px 0px 8px 2px;
+    margin: 1% 0;
+}
+
+.video-section .sec-left-side img {
+    width: 30%;
+}
+
+.video-section .sec-left-side h2 {
+    font-size: 22px;
+    padding: 4%;
+}
+
+
+.video-section .sec-left-side h5 {
+    padding-left: 4%;
+    font-size: 17px;
+    color: #a9a9a9c2;
+}
+
+.video-section .sec-left-side p {
+    padding: 4%;
+    color: gray;
+}
+
+
+.video-section .sec-right-side {
+    width: 33%;
+}
+
+.video-section .sec-right-side img {
+    width: 100%;
+}
+
+.video-section .sec-right-side .right--content {
+    position: relative;
+    margin: 2% 0;
+    background-color: white;
+    box-shadow: #0000002d 0px 0px 8px 2px;
+
+
+}
+
+.video-section .sec-right-side a i {
+    position: absolute;
+    font-size: 24px;
+    color: gray;
+    top: 22%;
+    left: 42%;
+    background-color: white;
+    width: 49px;
+    height: 50px;
+    padding: 13px 0px;
+    text-align: center;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.video-section .sec-right-side a i:hover {
+    color: blue;
+}
+
+
+.video-section .sec-right-side h2 {
+    font-size: 22px;
+    padding: 4%;
+}
+
+
+.video-section .sec-right-side h5 {
+    padding-left: 4%;
+    font-size: 17px;
+    color: #a9a9a9c2;
+}
+
+.video-section .sec-right-side p {
+    padding: 4%;
+    color: gray;
+}
+
+.video-section .btn-load {
+    padding: .6% 2%;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 14px;
+    color: gray;
+    margin-left: 47%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    transition: .8s;
+}
+
+.video-section .btn-load:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #161616;
+    padding: 4% 0%;
+}
+
+footer .item {
+    width: 30%;
+}
+
+footer .item1 h1 { 
+    color: white;
+    padding: 6% 6%;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+footer .item1 h4 {
+    color:gray;
+}
+
+footer .item2 {
+    width: 27%;
+}
+
+footer .item2 .padd{
+
+    padding: 10% 0;
+}
+
+footer .item2 li a {
+    color: gray;
+    transition: .4s;
+}
+
+footer .item2 li a:hover {
+    color: blue;
+}
+
+footer .item3 {
+    position: relative;
+}
+
+footer .item3 h1 {
+    color: white;
+    padding: 6% 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+footer .item3 input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 4%;
+    border-bottom: solid 1px gray;
+}
+
+footer .item3 a i {
+    position: absolute;
+    top: 73%;
+    left: 93%;
+    color: gray;
+    font-size: 20px;
+}
+
